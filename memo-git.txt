@@ -1,0 +1,55 @@
+/*** first time ***/
+
+// my acount
+git config --global user.email "kota.lalala.2021@gmail.com"
+git config --global user.name "kota-2021"
+
+// used tool ( code is 'vscode' )
+git config --global core.editor 'code --wait'
+git config --global merge.tool 'code --wait "$MERGED"'
+
+// push
+git config --global push.default simple
+
+git init
+git remote add origin https://github.com/Kota-2021/golang-tutorial-app-first.git
+git pull origin main
+
+git add main.go
+git commit -m "tutorial start"
+git push -u origin main
+
+git branch baby
+git checkout baby
+
+git add memo-git.txt
+git commit -m "memo-git.txt add"
+git push origin baby
+
+/*
+git status
+git log
+git branch
+git update-git-for-windows
+git --version
+*/
+
+/*** second time ***/
+
+git pull
+git branch baby
+git checkout baby
+git add golang-golearn-first.go
+git commit -m "Packages add"
+git add memo-git.txt
+git commit -m "memo-git.txt add"
+...
+...
+git push origin baby
+// or 
+// git push origin main
+
+
+/*
+git branch
+*/
