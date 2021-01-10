@@ -24,7 +24,12 @@ git checkout baby
 
 git add memo-git.txt
 git commit -m "memo-git.txt add"
-git push origin baby
+
+git checkout main
+git merge baby
+git branch -d baby
+
+git push origin main
 
 /*
 git status
